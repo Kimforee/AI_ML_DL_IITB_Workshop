@@ -1,0 +1,1 @@
+image = cv2.imread("E:/OpenCV/parrot.jpg", cv2.IMREAD_GRAYSCALE)
