@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  6 20:59:07 2023
-
-@author: AMIT
-"""
-
 # Apply smoothening of Image - Apply Blur
 import cv2 
 import numpy as np
 
-img = cv2.imread("C:/Users/91821/Desktop/Py playground/aiiitb/OpenCV/Images/avengers.png")
+img = cv2.imread("aiiitb/OpenCV/Images/avengers.png")
 img = cv2.resize(img,(525, 350))
 # Blur using Filter2D
 kernel = np.ones((5,5), np.float32) / 25

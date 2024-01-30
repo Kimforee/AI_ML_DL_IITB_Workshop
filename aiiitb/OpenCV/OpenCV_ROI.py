@@ -8,7 +8,7 @@ Created on Thu Dec  7 20:28:17 2023
 import cv2
 import numpy as np
 
-img = cv2.imread("E:/OpenCV/pug.jpg")
+img = cv2.imread("aiiitb\OpenCV\Images\pug.jpg")
 
 circles = np.zeros((2,2), int)
 counter = 0

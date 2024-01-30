@@ -21,8 +21,8 @@ def noise_black_white(image):
         image[y_coordinate][x_coordinate] = 0
     return image
 
-image = cv2.imread("E:/OpenCV/parrot.jpg", cv2.IMREAD_GRAYSCALE)
-img = cv2.imread("C:/Users/91821/Desktop/Py playground/aiiitb/OpenCV/Images/avengers.png",cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("aiiitb/OpenCV/Images/parrot.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("aiiitb/OpenCV/Images/avengers.png",cv2.IMREAD_GRAYSCALE)
 
 cv2.imshow('Original Image', img)
 cv2.imshow('Noisy Image',noise_black_white(img))

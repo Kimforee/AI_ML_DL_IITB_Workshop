@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec  7 20:14:14 2023
-
-@author: AMIT
-"""
-
 import cv2
 import numpy as np
 
@@ -18,7 +11,7 @@ def mousePosition(event, x, y, flags, params):
         counter += 1
         print(circles)
         
-img = cv2.imread("C:/Users/91821/Desktop/Py playground/aiiitb/OpenCV/Images/avengers.png")
+img = cv2.imread("aiiitb/OpenCV/Images/avengers.png")
 
 cv2.imshow("Original", img)
 cv2.setMouseCallback('Original', mousePosition)

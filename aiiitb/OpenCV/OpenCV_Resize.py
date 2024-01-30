@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec  7 19:40:42 2023
-
-@author: AMIT
-"""
-# Resize an Image
 
 import cv2
 import imutils
 
-img = cv2.imread("E:/OpenCV/pug.jpg")
+img = cv2.imread("aiiitb\OpenCV\Images\pug.jpg")
 
 # It takes height and width of image and reshapes to 500x500
 img_resize = cv2.resize(img, (700,700))
